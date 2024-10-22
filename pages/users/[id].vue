@@ -52,13 +52,15 @@ definePageMeta({
   &__todo {
     width: 200px;
     height: 200px;
-    line-height: 200px;
     border: 1px solid gray;
     background: gray;
     color: #000;
-    text-align: center;
     font-size: 14px;
     transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
     &--completed {
       background: #008000;
